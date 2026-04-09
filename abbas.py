@@ -50,7 +50,7 @@ SYSTEM_ROLE = (
 @app.route("/", methods=["GET"])
 def home():
     return jsonify({
-        "service": "Jasmine GF AI ❤️",
+        "service": "Muskan GF AI ❤️",
         "endpoint": "/gf?prompt=hi",
         "status": "running"
     })
